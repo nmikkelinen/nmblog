@@ -2,8 +2,9 @@
 layout: null
 title: "Lorem Ipsum Article Two"
 description: "An executive analysis covering the strategic outlook, structured implementation phases, and concluding assessments."
+tags: "Riskanalys"
 ---
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/style.css?v=2">
 
 <header>
     <nav>
