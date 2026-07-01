@@ -23,6 +23,6 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 ## Log Entries
 
 {% for post in site.posts %}
-*   **{{ post.date | date: "%Y-%m-%d" }}** — [{{ post.title }}]({{ post.url }})  
+*   **{{ post.date | date: "%Y-%m-%d" }}**  [{{ post.title }}]({{ post.url }})  
     {{ post.description }}
 {% endfor %}
