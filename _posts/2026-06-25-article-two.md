@@ -5,10 +5,6 @@ description: "An executive analysis covering the strategic outlook, structured i
 tags: "Riskanalys"
 ---
 
-# {{ page.title }}
-
-*Published on June 25, 2026*
-
 ## Executive Summary
 At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti.
 
