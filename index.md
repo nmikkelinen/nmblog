@@ -2,13 +2,12 @@
 layout: default
 title: "Welcome to the Log"
 ---
-
 <div style="margin-bottom: 24px; font-size: 14px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
     <span style="color: #64748b;">Theme:</span>
-    <button onclick="switchCSS('style.css?v=4')" style="background: #1e293b; color: #94a3b8; border: 1px solid #334155; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 12px;">Default</button>
-    <button onclick="switchCSS('style-premium.css?v=4')" style="background: #1e293b; color: #94a3b8; border: 1px solid #334155; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 12px;">Charcoal & Copper</button>
-    <button onclick="switchCSS('style-slate.css?v=4')" style="background: #1e293b; color: #94a3b8; border: 1px solid #334155; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 12px;">Slate & Amber</button>
-    <button onclick="switchCSS('style-accessible.css?v=4')" style="background: #1e293b; color: #94a3b8; border: 1px solid #334155; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 12px;">High Contrast</button>
+    <button onclick="switchCSS('/css/style.css?v=4')" style="background: #1e293b; color: #94a3b8; border: 1px solid #334155; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 12px;">Default</button>
+    <button onclick="switchCSS('/css/style-premium.css?v=4')" style="background: #1e293b; color: #94a3b8; border: 1px solid #334155; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 12px;">Charcoal & Copper</button>
+    <button onclick="switchCSS('/css/style-slate.css?v=4')" style="background: #1e293b; color: #94a3b8; border: 1px solid #334155; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 12px;">Slate & Amber</button>
+    <button onclick="switchCSS('/css/style-accessible.css?v=4')" style="background: #1e293b; color: #94a3b8; border: 1px solid #334155; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 12px;">High Contrast</button>
 </div>
 
 <h1>Welcome to the Log</h1>
@@ -34,13 +33,13 @@ title: "Welcome to the Log"
 </ul>
 
 <script>
-// Funktion för att byta CSS live
+// Byter CSS live och sparar valet i webbläsaren
 function switchCSS(sheet) {
-    document.getElementById('theme-style').setAttribute('href', '/' + sheet);
+    document.getElementById('theme-style').setAttribute('href', sheet);
     localStorage.setItem('selected-css', sheet);
 }
 
-// Funktion för tagg-filtrering
+// Logg för tagg-filtrering
 function filterPosts() {
     const hash = decodeURIComponent(window.location.hash.substring(1)).trim();
     const items = document.querySelectorAll('.post-item');
