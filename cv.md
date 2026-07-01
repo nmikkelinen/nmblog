@@ -6,7 +6,7 @@ title: "CV | Nicklas Mikkelinen"
 <style>
 .cv-container {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    max-width: 700px;
+    max-width: 800px;
     margin: 0 auto;
 }
 .cv-header {
@@ -38,11 +38,10 @@ title: "CV | Nicklas Mikkelinen"
     text-transform: uppercase;
     font-size: 1rem;
     letter-spacing: 0.05em;
-    color: #f8fafc;
 }
 .contact-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     gap: 10px;
     font-size: 14px;
     margin-bottom: 30px;
@@ -64,7 +63,7 @@ title: "CV | Nicklas Mikkelinen"
 .job-title, .edu-title {
     font-weight: 600;
     font-size: 1.1rem;
-    color: #f8fafc;
+    margin: 0;
 }
 .job-date, .edu-date {
     font-size: 14px;
@@ -137,7 +136,7 @@ a.cv-accent {
         <div>• +46-735-746-082</div>
         <div>• <a href="mailto:nicklas@mikkelinen.se">nicklas@mikkelinen.se</a></div>
         <div>• Boden, Sweden</div>
-        <div>• <a href="https://linkedin.com/in/mikkelinen" target="_blank">linkedin.com/in/mikkelinen</a></div>
+        <div>• <a href="https://linkedin.com/in/mikkelinen" target="_blank">LinkedIn</a></div>
     </div>
 
     <div class="cv-section">
@@ -168,7 +167,7 @@ a.cv-accent {
         <div class="job-block">
             <div class="job-header">
                 <div>
-                    <div class="job-title">CIO & CSO</div>
+                    <h3 class="job-title">CIO & CSO</h3>
                     <div class="job-company"><a class="cv-accent">Gestamp Hardtech AB</a></div>
                 </div>
                 <div class="job-date">2025-TODAY</div>
@@ -186,7 +185,7 @@ a.cv-accent {
         <div class="job-block">
             <div class="job-header">
                 <div>
-                    <div class="job-title">Information Security Manager</div>
+                    <h3 class="job-title">Information Security Manager</h3>
                     <div class="job-company"><a class="cv-accent">Swedbank AB</a></div>
                 </div>
                 <div class="job-date">2023-2025</div>
@@ -203,7 +202,7 @@ a.cv-accent {
         <div class="job-block">
             <div class="job-header">
                 <div>
-                    <div class="job-title">CISO & Deputy Head of Protective Security</div>
+                    <h3 class="job-title">CISO & Deputy Head of Protective Security</h3>
                     <div class="job-company"><a class="cv-accent">Luleå Municipality</a></div>
                 </div>
                 <div class="job-date">2021-2023</div>
@@ -221,7 +220,7 @@ a.cv-accent {
         <div class="job-block">
             <div class="job-header">
                 <div>
-                    <div class="job-title">Security Ambassador</div>
+                    <h3 class="job-title">Security Ambassador</h3>
                     <div class="job-company"><a class="cv-accent">Facebook (Meta)</a></div>
                 </div>
                 <div class="job-date">2020-2021</div>
@@ -235,7 +234,7 @@ a.cv-accent {
         <div class="job-block">
             <div class="job-header">
                 <div>
-                    <div class="job-title">Technical Principal</div>
+                    <h3 class="job-title">Technical Principal</h3>
                     <div class="job-company"><a class="cv-accent">Facebook (Meta)</a></div>
                 </div>
                 <div class="job-date">2017-2021</div>
@@ -249,7 +248,7 @@ a.cv-accent {
         <div class="job-block">
             <div class="job-header">
                 <div>
-                    <div class="job-title">IT Field Technician</div>
+                    <h3 class="job-title">IT Field Technician</h3>
                     <div class="job-company"><a class="cv-accent">Milestone Technologies, Inc.</a></div>
                 </div>
                 <div class="job-date">2016-2017</div>
@@ -262,7 +261,7 @@ a.cv-accent {
         <div class="job-block">
             <div class="job-header">
                 <div>
-                    <div class="job-title">Supervisor (Teaching Assistant)</div>
+                    <h3 class="job-title">Supervisor (Teaching Assistant)</h3>
                     <div class="job-company"><a class="cv-accent">The University of Skövde</a></div>
                 </div>
                 <div class="job-date">2014-2015</div>
@@ -275,7 +274,7 @@ a.cv-accent {
         <div class="job-block">
             <div class="job-header">
                 <div>
-                    <div class="job-title">IT Consultant</div>
+                    <h3 class="job-title">IT Consultant</h3>
                     <div class="job-company"><a class="cv-accent">Fanboys AB</a></div>
                 </div>
                 <div class="job-date">2011-2012</div>
@@ -288,7 +287,7 @@ a.cv-accent {
         <div class="job-block">
             <div class="job-header">
                 <div>
-                    <div class="job-title">Technical Support</div>
+                    <h3 class="job-title">Technical Support</h3>
                     <div class="job-company"><a class="cv-accent">Teleperformance Nordic</a></div>
                 </div>
                 <div class="job-date">2008-2010</div>
@@ -305,7 +304,7 @@ a.cv-accent {
         <div class="edu-block">
             <div class="edu-header">
                 <div>
-                    <div class="edu-title">Information Security</div>
+                    <h3 class="edu-title">Information Security</h3>
                     <div class="edu-school"><a class="cv-accent">Luleå University of Technology</a></div>
                 </div>
                 <div class="edu-date">2015-2016</div>
@@ -316,7 +315,7 @@ a.cv-accent {
         <div class="edu-block">
             <div class="edu-header">
                 <div>
-                    <div class="edu-title">Network and Systems administration</div>
+                    <h3 class="edu-title">Network and Systems administration</h3>
                     <div class="edu-school"><a class="cv-accent">University of Skövde</a></div>
                 </div>
                 <div class="edu-date">2012-2015</div>
