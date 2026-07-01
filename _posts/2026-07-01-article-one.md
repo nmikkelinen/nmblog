@@ -25,19 +25,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
 *   **Component Alpha:** Excepteur sint occaecat cupidatat non proident.
 *   **Component Beta:** Sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-<hr>
-<footer>
-    {% if page.previous %}
-        <a href="{{ page.previous.url }}">&lt;&lt; Previous</a>
-    {% else %}
-        <span></span>
-    {% endif %}
-    
-    <a href="/index.html">Home</a>
-    
-    {% if page.next %}
-        <a href="{{ page.next.url }}">Next &gt;&gt;</a>
-    {% else %}
-        <span></span>
-    {% endif %}
-</footer>
+<hr><footer>{% if page.previous %}<a href="{{ page.previous.url }}">&lt;&lt; Previous</a>{% else %}<span></span>{% endif %}<a href="/index.html">Home</a>{% if page.next %}<a href="{{ page.next.url }}">Next &gt;&gt;</a>{% else %}<span></span>{% endif %}</footer>
+
