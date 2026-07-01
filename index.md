@@ -14,7 +14,7 @@ layout: null
 
 # Welcome to the Log
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Curabitur vel sem sit amet nisi elementum mollis non eget est. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 ## About this space
 
@@ -22,8 +22,7 @@ Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
 
 ## Log Entries
 
-*   **2026-07-01** — [Lorem Ipsum Article One](/posts/article-one.html)  
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Curabitur vel sem sit amet nisi elementum mollis non eget est. 
-
-*   **2026-06-25** — [Lorem Ipsum Article Two](/posts/article-two.html)  
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Curabitur vel sem sit amet nisi elementum mollis non eget est. 
+{% for post in site.posts %}
+*   **{{ post.date | date: "%Y-%m-%d" }}** — [{{ post.title }}]({{ post.url }})  
+    {{ post.description }}
+{% endfor %}
