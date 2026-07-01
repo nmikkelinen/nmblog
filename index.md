@@ -1,18 +1,7 @@
 ---
-layout: null
+layout: default
+title: "Welcome to the Log"
 ---
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="/style.css?v=4">
-
-<header>
-    <nav>
-        <a href="/index.html">Home</a>
-        <a href="/templates.html">Templates</a>
-        <a href="/cv.html">CV</a>
-    </nav>
-</header>
-<hr>
-
 <h1>Welcome to the Log</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
