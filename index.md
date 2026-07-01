@@ -6,6 +6,7 @@ title: "Welcome to the Log"
 <div style="margin-bottom: 24px; font-size: 14px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
     <span style="color: #64748b;">Theme:</span>
     <button onclick="switchCSS('style.css?v=4')" style="background: #1e293b; color: #94a3b8; border: 1px solid #334155; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 12px;">Default</button>
+    <button onclick="switchCSS('style-premium.css?v=4')" style="background: #1e293b; color: #94a3b8; border: 1px solid #334155; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 12px;">Charcoal & Copper</button>
     <button onclick="switchCSS('style-slate.css?v=4')" style="background: #1e293b; color: #94a3b8; border: 1px solid #334155; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 12px;">Slate & Amber</button>
     <button onclick="switchCSS('style-accessible.css?v=4')" style="background: #1e293b; color: #94a3b8; border: 1px solid #334155; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 12px;">High Contrast</button>
 </div>
