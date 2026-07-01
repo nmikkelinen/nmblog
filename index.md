@@ -2,10 +2,10 @@
 layout: default
 title: "Welcome to the Log"
 ---
-<!-- CSS-väljare -->
+
 <div style="margin-bottom: 24px; font-size: 14px; display: flex; gap: 8px; align-items: center;">
     <span style="color: #64748b;">Theme:</span>
-    <button onclick="switchCSS('style.css?v=4')" style="background: #1e293b; color: #94a3b8; border: 1px solid #334155; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 12px;">Executive</button>
+    <button onclick="switchCSS('style.css?v=4')" style="background: #1e293b; color: #94a3b8; border: 1px solid #334155; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 12px;">Default</button>
     <button onclick="switchCSS('style-test.css?v=4')" style="background: #1e293b; color: #94a3b8; border: 1px solid #334155; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 12px;">Test Theme</button>
 </div>
 
