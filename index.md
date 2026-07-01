@@ -12,13 +12,14 @@
 
 ## Logg
 
-### 2026-07-01: Lorem Ipsum – Testinlägg
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Detta är ett test för att se hur vanlig brödtext ser ut tillsammans med det mörka temat.
+### 2026-07-01: Lorem Ipsum – Testpost
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. This is a test to see how normal text looks with darkmode.
+Detta är ett test för att se hur vanlig brödtext ser ut tillsammans med det mörka temat.
 
 * **Punkt ett:** Lorem ipsum dolor sit amet.
-* **Punkt två:** consectetur adipiscing elit.
+* **Point two:** consectetur adipiscing elit.
 
 ```text
-Policy_ID: SEC-01
-Version: 1.0
-Innehåll: Detta är ett platshållardokument.
+ID: TEST-01
+Version: 0.3
+Content: This is a placeholder.
