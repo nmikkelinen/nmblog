@@ -2,8 +2,9 @@
 layout: null
 title: "Lorem Ipsum Article One"
 description: "A brief summary highlighting the key takeaways, component structures, and technical deep dives within this entry."
+tags: "ISMS"
 ---
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="/style.css?v=2">
 
 <header>
     <nav>
@@ -22,7 +23,7 @@ description: "A brief summary highlighting the key takeaways, component structur
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 ## Core Concepts
-*   **Component Alpha:** Excepteur sint occaecat cupidatat non proident.
-*   **Component Beta:** Sunt in culpa qui officia deserunt mollit anim id est laborum.
+* **Component Alpha:** Excepteur sint occaecat cupidatat non proident.
+* **Component Beta:** Sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 <hr><footer>{% if page.previous %}<a href="{{ page.previous.url }}">&lt;&lt; Previous</a>{% else %}<a href="#" class="disabled">&lt;&lt; Previous</a>{% endif %}<a href="/index.html">Home</a>{% if page.next %}<a href="{{ page.next.url }}">Next &gt;&gt;</a>{% else %}<a href="#" class="disabled">Next &gt;&gt;</a>{% endif %}</footer>
