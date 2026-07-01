@@ -1,8 +1,14 @@
 ---
 layout: default
 title: "Welcome to the Log"
-css: style-test.css
 ---
+<!-- CSS-väljare -->
+<div style="margin-bottom: 24px; font-size: 14px; display: flex; gap: 8px; align-items: center;">
+    <span style="color: #64748b;">Theme:</span>
+    <button onclick="switchCSS('style.css?v=4')" style="background: #1e293b; color: #94a3b8; border: 1px solid #334155; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 12px;">Executive</button>
+    <button onclick="switchCSS('style-test.css?v=4')" style="background: #1e293b; color: #94a3b8; border: 1px solid #334155; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 12px;">Test Theme</button>
+</div>
+
 <h1>Welcome to the Log</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
@@ -26,6 +32,13 @@ css: style-test.css
 </ul>
 
 <script>
+// Funktion för att byta CSS live
+function switchCSS(sheet) {
+    document.getElementById('theme-style').setAttribute('href', '/' + sheet);
+    localStorage.setItem('selected-css', sheet);
+}
+
+// Funktion för tagg-filtrering
 function filterPosts() {
     const hash = decodeURIComponent(window.location.hash.substring(1)).trim();
     const items = document.querySelectorAll('.post-item');
