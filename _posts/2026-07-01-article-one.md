@@ -5,10 +5,6 @@ description: "A brief summary highlighting the key takeaways, component structur
 tags: "ISMS"
 ---
 
-# {{ page.title }}
-
-*Published on July 1, 2026*
-
 ## Introduction
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
