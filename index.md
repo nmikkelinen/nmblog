@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="style.css">
 
 <header>
-    <h1>blog.mikkelinen.se</h1>
+    <h1>RandomTitle Placeholder</h1>
     <nav>
         <a href="index.html">[Blogg]</a>
         <a href="mallar.html">[Mallar]</a>
