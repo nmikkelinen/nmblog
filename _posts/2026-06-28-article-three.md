@@ -21,4 +21,4 @@ description: "A third test entry sitting in the middle to verify the pagination 
 ## Testing the Middle Post
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-<hr><footer>{% if page.previous %}<a href="{{ page.previous.url }}">&lt;&lt; Previous</a>{% else %}<span></span>{% endif %}<a href="/index.html">Home</a>{% if page.next %}<a href="{{ page.next.url }}">Next &gt;&gt;</a>{% else %}<span></span>{% endif %}</footer>
+<hr><footer>{% if page.previous %}<a href="{{ page.previous.url }}">&lt;&lt; Previous</a>{% else %}<a href="#" class="disabled">&lt;&lt; Previous</a>{% endif %}<a href="/index.html">Home</a>{% if page.next %}<a href="{{ page.next.url }}">Next &gt;&gt;</a>{% else %}<a href="#" class="disabled">Next &gt;&gt;</a>{% endif %}</footer>
