@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Welcome to the Log"
+css: style-test.css
 ---
 <h1>Welcome to the Log</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
