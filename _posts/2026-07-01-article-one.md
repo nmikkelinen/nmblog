@@ -4,7 +4,8 @@ title: "Lorem Ipsum Article One"
 description: "A brief summary highlighting the key takeaways, component structures, and technical deep dives within this entry."
 tags: "ISMS"
 ---
-<link rel="stylesheet" href="/style.css?v=2">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/style.css?v=4">
 
 <header>
     <nav>
