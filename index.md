@@ -2,12 +2,12 @@
 layout: default
 title: "Welcome to the Log"
 ---
+<!-- CSS-väljare -->
 <div style="margin-bottom: 24px; font-size: 14px; display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
     <span style="color: #64748b;">Tema:</span>
     <button onclick="switchCSS('/css/midnight-gold.css?v=4')" style="background: #1e293b; color: #94a3b8; border: 1px solid #334155; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 12px;">Midnight</button>
     <button onclick="switchCSS('/css/charcoal-copper.css?v=4')" style="background: #1e293b; color: #94a3b8; border: 1px solid #334155; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 12px;">Charcoal</button>
     <button onclick="switchCSS('/css/plum-clay.css?v=4')" style="background: #1e293b; color: #94a3b8; border: 1px solid #334155; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 12px;">Plum</button>
-    <button onclick="switchCSS('/css/slate-blue.css?v=4')" style="background: #1e293b; color: #94a3b8; border: 1px solid #334155; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 12px;">Slate</button>
     <button onclick="switchCSS('/css/high-contrast.css?v=4')" style="background: #1e293b; color: #94a3b8; border: 1px solid #334155; padding: 4px 10px; border-radius: 4px; cursor: pointer; font-size: 12px;">High Contrast</button>
 </div>
 
