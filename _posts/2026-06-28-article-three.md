@@ -4,7 +4,8 @@ title: "Lorem Ipsum Article Three"
 description: "A third test entry sitting in the middle to verify the pagination layout with both previous and next links."
 tags: "NIS2"
 ---
-<link rel="stylesheet" href="/style.css?v=2">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/style.css?v=4">
 
 <header>
     <nav>
