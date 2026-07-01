@@ -12,6 +12,10 @@ layout: null
 </header>
 <hr>
 
+## About
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras porttitor metus id aliquet periodic.
+
 ## Log
 
 *   **2026-07-01** — [Lorem ipsum dolor sit amet](posts/lorem-ipsum.html)
