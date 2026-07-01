@@ -12,11 +12,15 @@ layout: null
 </header>
 <hr>
 
-## About
+# Welcome to the Log
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras porttitor metus id aliquet periodic.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Curabitur vel sem sit amet nisi elementum mollis non eget est. Duis ac magna ac purus vestibulum tristique vel ut lorem.
 
-## Log
+## About this space
 
-*   **2026-07-01** — [Lorem ipsum dolor sit amet](posts/lorem-ipsum.html)
-*   **2026-06-25** — [Consectetur adipiscing elit](posts/consectetur-adipiscing.html)
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+## Log Entries
+
+*   **2026-07-01** — [Lorem Ipsum Article One](posts/article-one.html)
+*   **2026-06-25** — [Lorem Ipsum Article Two](posts/article-two.html)
