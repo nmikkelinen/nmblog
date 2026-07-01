@@ -5,7 +5,7 @@ title: "CV | Nicklas Mikkelinen"
 
 <style>
 body {
-    max-width: 900px !important;
+    max-width: 1000px !important;
 }
 .cv-container {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
@@ -43,9 +43,9 @@ body {
     letter-spacing: 0.05em;
 }
 .contact-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 32px;
     font-size: 14px;
     margin-bottom: 30px;
 }
@@ -214,7 +214,7 @@ a.cv-accent {
                 <li>Chief Information Security Officer (CISO) and Deputy Head of Protective Security (Biträdande säkerhetsskyddschef).</li>
                 <li>Full accountability for ISMS implementation and security strategy across all municipal departments.</li>
                 <li>Managed security frameworks for essential services governed by the Swedish Protective Security Act.</li>
-                <li>Coordinating regional civil preparedness and authority collaboration with Säkerhetspolisen and MSB.</li>
+                <li>Coordinated regional civil preparedness and authority collaboration with Säkerhetspolisen and MSB.</li>
                 <li>Responsible for security clearance processes and protective security analysis for critical infrastructure.</li>
                 <li>Provided strategic advice and risk reporting to the municipal leadership on national security matters.</li>
             </ul>
