@@ -4,7 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/{{ page.css | default: 'style.css' }}?v=4">
+    <link id="theme-style" rel="stylesheet" href="/{{ page.css | default: 'style.css' }}?v=4">
+    <script>
+        // Ser till att ditt valda färgschema laddas direkt innan sidan ritas upp
+        const savedCSS = localStorage.getItem('selected-css');
+        if (savedCSS) {
+            document.getElementById('theme-style').setAttribute('href', '/' + savedCSS);
+        }
+    </script>
 </head>
 <body>
     <header>
